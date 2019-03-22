@@ -10,7 +10,7 @@ while user_choice2 == 'y':  #while user_choice2 == y is TRUE the program keeps g
     user_choice = input('Choose rock, paper, or scissors: ') #the computer asks the user for their choice
 
     choice = random.choice(rps) #the computer randomly chooses rock, paper, or scissors
-    print(f'The computer chose {choice}')
+    print(f'The computer chose {choice}.')
 
     if user_choice == 'rock' and choice == 'rock':
         print('Tie')
